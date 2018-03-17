@@ -1,0 +1,24 @@
+'''
+Some description
+'''
+
+def ssh_conn(ip_addr, username, password):
+    '''Printing IP addresses.
+
+    This function prints IP addresses of devices and credentials.'''
+    print("IP address: " + ip_addr)
+    print("Username: " + username)
+    print("Password: " + password)
+
+# First call - entirely positional arguments
+ssh_conn('10.128.77.2', 'admin', 'superpassword')
+
+# Second call - entirely named arguments
+ssh_conn(username='admin', password='superpassword', ip_addr='10.128.77.2')
+
+# Third call - mix of positional and named arguments
+ssh_conn('10.128.77.2', password='superpassword', username='admin')
+
+
+# Printing function docstring
+print(ssh_conn.__doc__)

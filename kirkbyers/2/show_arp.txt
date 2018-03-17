@@ -1,0 +1,6 @@
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  192.168.12.1            -   ca01.3b98.0054  ARPA   Ethernet3/0
+Internet  192.168.12.2            0   ca02.26ec.0054  ARPA   Ethernet3/0
+Internet  192.168.13.1            -   ca01.3b98.0055  ARPA   Ethernet3/1
+Internet  192.168.13.3            0   Incomplete      ARPA
+
